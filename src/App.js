@@ -1,23 +1,18 @@
 import logo from './logo.svg';
-import './styles/App.css';
-import './styles/index.css';
+import './styles/App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Item from './views/items/Item';
-import Menu from './views/menus/Menu';
-import Hello from './views/hello/Hello';
-import Car from './views/cars/Car';
-import Login from './views/login/Login';
+import Item from './components/items/Item';
+import Menu from './components/menus/Menu';
+import Hello from './components/hello/Hello';
+import Car from './components/cars/Car';
+import Login from './components/login/Login';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Item />
         <Menu />
-        <Hello />
-        <Car />
-        <Login />
       </header>
     </div>
   );
