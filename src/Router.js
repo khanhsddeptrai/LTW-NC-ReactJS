@@ -25,6 +25,10 @@ export const router = createBrowserRouter([
     {
         path: "/infor",
         element: <Information />
+    },
+    {
+        path: "*",
+        element: "404 Not Found!"
     }
 
 ])
