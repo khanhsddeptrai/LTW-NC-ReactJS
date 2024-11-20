@@ -5,6 +5,7 @@ import Login from "./components/login/Login";
 import Hello from "./components/hello/Hello";
 import Car from "./components/cars/Car";
 import Information from './components/informations/Information';
+import User from "./components/user/User";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
     {
         path: "/infor",
         element: <Information />
+    },
+    {
+        path: "/user",
+        element: <User />
     },
     {
         path: "*",
